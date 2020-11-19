@@ -1,5 +1,5 @@
-FROM openjdk:8-jre
-MAINTAINER nunna.devops@gmail.com
+FROM ubuntu:14.04
+MAINTAINER sra1kumar@gmail.com
 RUN apt-get update
 RUN apt-get install -y tomcat7
 EXPOSE 8080
